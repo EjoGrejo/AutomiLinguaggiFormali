@@ -1,0 +1,55 @@
+\section{Classe P}
+Riassunto: 
+\begin{itemize}
+  \item Differenza di tempo \g{polinomiale} tra TM a nastro singolo e multi-nastro
+  \item Differenza di tempo \g{esponenziale} tra TM deterministichee non deterministiche
+\end{itemize}
+Una differenza \g{polinomiale} è considerata piccola
+\begin{itemize}
+  \item Tutti i modelli di calcolo deterministici ``ragionevoli'' sono 
+    \g{polinomialmente equivalenti}
+  \item ``Ragionevole'' è definito in modo approssimativo, ma include
+    modelli che assomigliano molto ai computer reali
+\end{itemize}
+Una differenza \g{esponenziale} è considerata grande
+\begin{definition}
+  $P$ è l classe di linguaggi che sono decidibili in \g{tempo polinomiale}
+  da una TM deterministica a singolo nastro
+  \begin{displaymath}
+    P=\underset{k}{\bigcup}TIME(n^k)
+  \end{displaymath}
+\end{definition}
+\begin{itemize}
+  \item $P$ è invariante per i modelli di calcolo \g{polinomialmente equivalenti}
+    ad una TM deterministica
+  \item $P$ corrisponde approssimativamente ai problemi che sono 
+    \g{realisticamente risolvibili} da un computer
+\end{itemize}
+Per dimostrare che un problema/algoritmo è in $P$ 
+\begin{itemize}
+  \item Descrivi l'algoritmo per fasi numerate 
+  \item Dai un limite superiore polinomiale al numero di fasi che l'algoritmo 
+    esegue per un input di lunghezza $n$ 
+  \item Assicurati che ogni fase possa essere completata in tempo polinomiale
+    su un modello di calcolo deterministico ragionevole
+  \item L'input deve essere codificato in modo ragionevole
+\end{itemize}
+\subsection{Due problemi in $P$}
+\begin{description}
+  \item[Raggiungibilità di un grafo] 
+    $PATH = \{\langle G,s,t\rangle\mid G\textrm{ grafo che contiene un cammino da} s \textrm{ a }t\}$
+  \item[Numeri relativamente primi]
+    $RELPRIME = \{(x,y)\mid 1\textrm{ è il massimo comun divisore di }x \textrm{ e }y\}$
+\end{description}
+\begin{theorem}
+  ogni linguaggi context-free è un elemento in $P$ 
+\end{theorem}
+\begin{itemize}
+  \item Abbiamo dimostrato che ogni CFL è \g{decidibile}
+    \begin{itemize}
+      \item L'algoritmo nella dimostrazione è \g{esponenziale}
+    \end{itemize}
+  \item La soluzione polinomiale usa la \g{programmazione dinamica}
+  \item La complessità è $O(n^3)$ 
+\end{itemize}
+

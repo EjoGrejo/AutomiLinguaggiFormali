@@ -1,0 +1,169 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Introduzione}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Problemi}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Linguaggi Formali}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Automi}{6}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Linguaggi Regolari}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Espressioni regolari}{7}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Precedenza}{8}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Conversione per eliminazione di stati}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Da NFA a GNFA}{8}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Definizione formale di GNFA}{8}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Computazione di un GNFA}{9}{subsubsection.2.3.1}%
+\contentsline {paragraph}{Algoritmo di conversione}{9}{section*.2}%
+\contentsline {section}{\numberline {3}Linguaggi Non Regolari}{11}{section.3}%
+\contentsline {paragraph}{Dimostrazione}{11}{section*.3}%
+\contentsline {subsection}{\numberline {3.1}SBRODEGHI}{11}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Proprietà dei linguaggi regolari}{11}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Pumping Lemma}{11}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Dimostrazione}{12}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Pumping lemma come gioco}{12}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Esistono linguaggi non regolari che rispettano il Pumping Lemma}{12}{subsubsection.3.2.3}%
+\contentsline {paragraph}{Sia $L_{ab}$ il linguaggio delle stringhe sull'alfabeto $(a,b)$ dove il numero di $a$ è uguale al numero di $b$. $L_{ab}$ è regolare?}{12}{section*.4}%
+\contentsline {paragraph}{Il linguaggio $L_{rev} = \{ww^R:w \in \{a,b\}*\}$ è regolare?}{13}{section*.5}%
+\contentsline {paragraph}{Il linguaggio $L_{p} = \{1^p: p$ è primo$\}$ è regolare?}{13}{section*.6}%
+\contentsline {section}{\numberline {4}Linguaggi Context-Free}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Grammatiche Context-free}{14}{subsection.4.1}%
+\contentsline {paragraph}{Esempio per $G_1$}{14}{section*.7}%
+\contentsline {subsection}{\numberline {4.2}Albero sintattico}{15}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Una grammatica per l’inglese}{15}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Definizione di grammatica context-free}{16}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Esempi}{16}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Parentesi}{16}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Operazioni aritmetiche}{17}{subsubsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.6}Come si progetta una grammatica context-free}{17}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Forma normale di Chomsky}{18}{subsection.4.7}%
+\contentsline {subsubsection}{\numberline {4.7.1}Ambiguità}{18}{subsubsection.4.7.1}%
+\contentsline {subsubsection}{\numberline {4.7.2}Definizione della forma normale di Chomsky}{18}{subsubsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.3}Come passare ad una forma normale di Chomsky}{18}{subsubsection.4.7.3}%
+\contentsline {paragraph}{Esempio}{19}{section*.8}%
+\contentsline {section}{\numberline {5}Automi a Pila}{20}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Definizione di PDA}{21}{subsection.5.1}%
+\contentsline {paragraph}{Esempio}{21}{section*.9}%
+\contentsline {subsection}{\numberline {5.2}Computazione e linguaggi di un PDA}{21}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Accettazione per pila vuota}{22}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Rappresentare le stringhe intermedie}{22}{subsubsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.4}Definizione informale del PDA}{23}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Notazione compatta}{23}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Dimostrazione}{23}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Da PDA a grammatica Context-Free}{24}{subsection.5.7}%
+\contentsline {paragraph}{Andare da $P$ a $q(1)$}{24}{section*.10}%
+\contentsline {paragraph}{Le regole di $G$}{25}{section*.11}%
+\contentsline {paragraph}{Due dimostrazioni induttive}{25}{section*.12}%
+\contentsline {paragraph}{Lemma}{25}{section*.13}%
+\contentsline {paragraph}{Lemma}{25}{section*.14}%
+\contentsline {section}{\numberline {6}Macchine di Turing}{26}{section.6}%
+\contentsline {subsection}{\numberline {6.1}La Tesi di Church-Turing}{26}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Macchina di Turing}{26}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Primo esempio di TM}{26}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Automi finiti vs Macchine di Turing}{27}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Definizione formale}{27}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Configurazioni}{27}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Computazione}{28}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Linguaggi Turing-riconoscibili}{28}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Linguaggi Turing-decidibili}{28}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Esempi}{29}{subsection.6.10}%
+\contentsline {subsubsection}{\numberline {6.10.1}Esempio 1}{29}{subsubsection.6.10.1}%
+\contentsline {subsubsection}{\numberline {6.10.2}Esempio 2}{29}{subsubsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.3}Esempio 3}{29}{subsubsection.6.10.3}%
+\contentsline {subsubsection}{\numberline {6.10.4}Esempio 4}{29}{subsubsection.6.10.4}%
+\contentsline {subsection}{\numberline {6.11}Conclusioni}{30}{subsection.6.11}%
+\contentsline {section}{\numberline {7}Varianti di Macchine di Turing}{31}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Macchine a nastro semi-infinito}{31}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Macchine Multinastro}{31}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Macchine non deterministiche}{32}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Come funziona il terzo nastro }{32}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Come funziona $D$}{33}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Conclusione}{33}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Enumeratori}{34}{subsection.7.7}%
+\contentsline {subsection}{\numberline {7.8}Equivalenza}{34}{subsection.7.8}%
+\contentsline {subsection}{\numberline {7.9}Macchine di Turing monodirezionali}{34}{subsection.7.9}%
+\contentsline {subsection}{\numberline {7.10}Equivalenza con altri modelli}{34}{subsection.7.10}%
+\contentsline {section}{\numberline {8}Varianti di Macchine di Turing}{35}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Cos'è un algoritmo}{35}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Tesi di Church-Turing}{35}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Il decimo problema di Hilbert }{35}{subsubsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.2}Come descrivere una Turing Machine}{35}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Notazione formale per macchine di Turing}{36}{subsubsection.8.2.1}%
+\contentsline {paragraph}{Esempio: un problema di grafi}{36}{section*.15}%
+\contentsline {paragraph}{Definizione di base}{36}{section*.16}%
+\contentsline {paragraph}{Definizione}{36}{section*.17}%
+\contentsline {paragraph}{Problema }{36}{section*.18}%
+\contentsline {paragraph}{Descrizione di alto livello}{37}{section*.19}%
+\contentsline {paragraph}{Codifica del grafo }{37}{section*.20}%
+\contentsline {section}{\numberline {9}Linguaggi decidibili}{38}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Problemi sui linguaggi regolari}{38}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Problema dell'accettazione}{38}{subsubsection.9.1.1}%
+\contentsline {paragraph}{Dimostrazione}{38}{section*.21}%
+\contentsline {subsection}{\numberline {9.2}Test del vuoto}{39}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}$E_{DFA}$ è decidibile}{39}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Test di equivalenza}{39}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}$EQ_{DFA}$ è decidibile}{40}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Problemi per linguaggi Context-free}{40}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.7}$A_{CFG}$ è decidibile}{40}{subsection.9.7}%
+\contentsline {subsection}{\numberline {9.8}Test del vuoto}{40}{subsection.9.8}%
+\contentsline {subsection}{\numberline {9.9}Relazioni tra classi di linguaggi}{41}{subsection.9.9}%
+\contentsline {section}{\numberline {10}Indecidibilità}{42}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Metodo della diagonalizzazione}{42}{subsection.10.1}%
+\contentsline {paragraph}{Corrispondenze}{42}{section*.22}%
+\contentsline {paragraph}{Definizione}{42}{section*.23}%
+\contentsline {subsection}{\numberline {10.2}Esempio: naturali vs numeri pari}{42}{subsection.10.2}%
+\contentsline {paragraph}{Definizione di insieme numerabile}{42}{section*.24}%
+\contentsline {paragraph}{Altri esempi}{42}{section*.25}%
+\contentsline {paragraph}{Corollario}{43}{section*.26}%
+\contentsline {subsection}{\numberline {10.3}Un risultato fondamentale}{43}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Macchina Universale di Turing}{43}{subsection.10.4}%
+\contentsline {paragraph}{Dimostrazione}{43}{section*.27}%
+\contentsline {paragraph}{Comprendere la dimostrazione}{44}{section*.28}%
+\contentsline {subsection}{\numberline {10.5}Un linguaggio non Turing-riconoscibile}{44}{subsection.10.5}%
+\contentsline {paragraph}{Dimostrazione}{44}{section*.29}%
+\contentsline {subsection}{\numberline {10.6}$\overline {A_{TM}}$ non è Turing-riconoscibile}{45}{subsection.10.6}%
+\contentsline {section}{\numberline {11}Riducibilità}{46}{section.11}%
+\contentsline {paragraph}{Il problema della fermata}{46}{section*.30}%
+\contentsline {paragraph}{Riducibilità}{46}{section*.31}%
+\contentsline {subsection}{\numberline {11.1}Dimostrazione per riduzione }{46}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Il problema del vuoto}{46}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Stabilire se un linguaggio è regolare}{46}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Il problema dell'equivalenza}{47}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Riducibilità mediante funzione}{47}{subsection.11.5}%
+\contentsline {paragraph}{Definizione}{47}{section*.32}%
+\contentsline {subsection}{\numberline {11.6}Proprietà delle riduzioni}{47}{subsection.11.6}%
+\contentsline {paragraph}{Teorema}{47}{section*.33}%
+\contentsline {paragraph}{Teorema}{47}{section*.34}%
+\contentsline {subsection}{\numberline {11.7}Il problema della fermata(2)}{48}{subsection.11.7}%
+\contentsline {subsection}{\numberline {11.8}Il problema dell'equivalenza(2)}{48}{subsection.11.8}%
+\contentsline {subsection}{\numberline {11.9}Il problema del vuoto(2)}{48}{subsection.11.9}%
+\contentsline {paragraph}{Proprietà delle riduzioni (2)}{49}{section*.35}%
+\contentsline {paragraph}{Teorema}{49}{section*.36}%
+\contentsline {paragraph}{Teorema}{49}{section*.37}%
+\contentsline {section}{\numberline {12}Complessità di tempo}{50}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Misure di Complessità}{50}{subsection.12.1}%
+\contentsline {paragraph}{Definizione}{50}{section*.38}%
+\contentsline {subsection}{\numberline {12.2}Notazione $O$-grande}{50}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Analisi di complessità}{50}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Classi di complessità di tempo}{51}{subsection.12.4}%
+\contentsline {paragraph}{Possiamo fare di meglio?}{51}{section*.39}%
+\contentsline {paragraph}{MA}{51}{section*.40}%
+\contentsline {paragraph}{Miglioriamo $M_1$}{51}{section*.41}%
+\contentsline {paragraph}{Possiamo fare ancora meglio?}{51}{section*.42}%
+\contentsline {subsection}{\numberline {12.5}Relazione di complessità tra modelli}{52}{subsection.12.5}%
+\contentsline {subsubsection}{\numberline {12.5.1}Singolo nastro vs. Multinastro}{52}{subsubsection.12.5.1}%
+\contentsline {subsubsection}{\numberline {12.5.2}TM non deterministiche}{52}{subsubsection.12.5.2}%
+\contentsline {paragraph}{Nota Bene}{52}{section*.43}%
+\contentsline {subsubsection}{\numberline {12.5.3}Determinismo vs. Non determinismo}{52}{subsubsection.12.5.3}%
+\contentsline {paragraph}{Dimostrazione}{53}{section*.44}%
+\contentsline {section}{\numberline {13}Classe P}{54}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Due problemi in $P$}{54}{subsection.13.1}%
+\contentsline {section}{\numberline {14}La classe NP}{55}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Giochiamo a Domino}{55}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Mostriamo che Domino[1] è trattabile}{55}{subsection.14.2}%
+\contentsline {paragraph}{Obiettivo}{55}{section*.45}%
+\contentsline {subsection}{\numberline {14.3}Un linguaggio e una riduzione}{55}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Dalle tessere al grafo}{55}{subsection.14.4}%
+\contentsline {paragraph}{Grafo del dominio}{55}{section*.46}%
+\contentsline {subsection}{\numberline {14.5}Dominio[1] è un problema su grafi!}{56}{subsection.14.5}%
+\contentsline {paragraph}{Il problema del Cammino Euleriano}{56}{section*.47}%
+\contentsline {subsection}{\numberline {14.6}Algoritmo di Fleury}{56}{subsection.14.6}%
+\contentsline {paragraph}{Complessità}{56}{section*.48}%
+\contentsline {subsection}{\numberline {14.7}Complessità di Domino[1]}{56}{subsection.14.7}%
